@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/hi5stitch-website/static/css/main.9f29ae9c.css",
-    "main.js": "/hi5stitch-website/static/js/main.b6476905.js",
-    "static/media/bg-1.jpg": "/hi5stitch-website/static/media/bg-1.22201a99e8bcb08db19e.jpg",
+    "main.css": "/hi5stitch-website/static/css/main.a9df6cb1.css",
+    "main.js": "/hi5stitch-website/static/js/main.ad23c314.js",
     "static/media/slide-5.jpg": "/hi5stitch-website/static/media/slide-5.be1406155bdd4d2c2ee3.jpg",
     "static/media/slide-2.jpg": "/hi5stitch-website/static/media/slide-2.772468c6747140f4c5bd.jpg",
     "static/media/slide-3.jpg": "/hi5stitch-website/static/media/slide-3.b96dd62e61128d13e4c8.jpg",
@@ -10,11 +9,11 @@
     "static/media/slide-1.jpg": "/hi5stitch-website/static/media/slide-1.f514f1ba5818d261d12c.jpg",
     "static/media/slide-4.jpg": "/hi5stitch-website/static/media/slide-4.5e140a7fb2470e66fbd1.jpg",
     "index.html": "/hi5stitch-website/index.html",
-    "main.9f29ae9c.css.map": "/hi5stitch-website/static/css/main.9f29ae9c.css.map",
-    "main.b6476905.js.map": "/hi5stitch-website/static/js/main.b6476905.js.map"
+    "main.a9df6cb1.css.map": "/hi5stitch-website/static/css/main.a9df6cb1.css.map",
+    "main.ad23c314.js.map": "/hi5stitch-website/static/js/main.ad23c314.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f29ae9c.css",
-    "static/js/main.b6476905.js"
+    "static/css/main.a9df6cb1.css",
+    "static/js/main.ad23c314.js"
   ]
 }

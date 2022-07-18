@@ -11,6 +11,7 @@ import FeaturedProducts from "./components/featured-products/FeaturedProducts";
 import Footer from "./components/footer/Footer";
 import HashLoader from "react-spinners/HashLoader";
 import { useState, useEffect } from "react";
+import Qualities from "./components/qualities/Qualities";
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
 <Collections />
 <NewArrivals/>
 <FeaturedProducts />
+<Qualities/>
 <Footer/>
 <Routes>
   <Route path="/" exact component={Home} />

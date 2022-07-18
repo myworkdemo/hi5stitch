@@ -5,7 +5,6 @@ const FeaturedProducts = () => {
     return (
         <div className="featured-products">
 
-      {/* <div className="logo">Hi5<font>Stitch</font></div> */}
       <div> <img className="featured-products-logo" src={process.env.PUBLIC_URL +'/assets/img/featured-products-logo.png'}/> </div>
 
       <div className="featured-products-card">

@@ -5,7 +5,6 @@ const Collections = () => {
   return (
     <div className="collections">
 
-      {/* <div className="logo">Hi5<font>Stitch</font></div> */}
       <div> <img className="collections-logo" src={process.env.PUBLIC_URL +'/assets/img/collections-logo.png'}/> </div>
 
       <div className="collections-card">

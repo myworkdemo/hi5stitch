@@ -3,9 +3,8 @@ import './new-arrivals.css';
 
 const NewArrivals = () => {
     return (
-        <div className="new-arrivals">
+      <div className="new-arrivals">
 
-      {/* <div className="logo">Hi5<font>Stitch</font></div> */}
       <div> <img className="new-arrivals-logo" src={process.env.PUBLIC_URL +'/assets/img/new-arrivals-logo.png'}/> </div>
 
       <div className="new-arrivals-card">
@@ -35,7 +34,6 @@ const NewArrivals = () => {
         <button className="btn-buy">BUY</button>
         </div>
 
-
         <div className="card"> 
         <img src={process.env.PUBLIC_URL +'/assets/img/new-arrivals/col-1.jpg'} /> 
         <div className="price">₹ 10,000</div>
@@ -64,7 +62,6 @@ const NewArrivals = () => {
 
         
       </div>
-      
     </div>
     )
 }

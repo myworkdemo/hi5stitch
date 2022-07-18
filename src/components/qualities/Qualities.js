@@ -6,15 +6,19 @@ const Qualities = () => {
         <div className="qualities">
 
         {/* <div className="logo">Hi5<font>Stitch</font></div> */}
-        <div> Our Qualities </div>
+        <div className="title"> Our Qualities </div>
   
         <div className="qualities-card">
-          <div className="card"> <img src={process.env.PUBLIC_URL +'/assets/img/qualities/col-1.jpg'} /> </div>
-          <div className="card"><img src={process.env.PUBLIC_URL +'/assets/img/qualities/col-2.jpg'} /></div>
-          <div className="card"><img src={process.env.PUBLIC_URL +'/assets/img/qualities/col-3.jpg'} /></div>
-          <div className="card"><img src={process.env.PUBLIC_URL +'/assets/img/qualities/col-4.jpg'} /></div>
-          <div className="card"><img src={process.env.PUBLIC_URL +'/assets/img/qualities/col-5.jpg'} /></div>
-          <div className="card"><img src={process.env.PUBLIC_URL +'/assets/img/qualities/col-6.jpg'} /></div>
+        <div className="card"> <img src={process.env.PUBLIC_URL +'/assets/img/qualities/doller-icon.png'} />
+        <label>Value for Money</label>
+         </div>
+        <div className="card"><img src={process.env.PUBLIC_URL +'/assets/img/qualities/quality-icon.png'} />
+        <label>100% Quality</label>
+        </div>
+        <div className="card"><img src={process.env.PUBLIC_URL +'/assets/img/qualities/delivery-van-icon.png'} />
+        <label>We deliver all over india</label>
+        </div>
+       
         </div>
       </div>
     )

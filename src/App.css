@@ -21,6 +21,10 @@
   font-weight: bold;
 }
 
+.card{
+  z-index: 1;
+}
+
 @media (max-width: 1400px) {
   .spinner {
     margin: 25% 0 0 48%;

@@ -1,126 +1,151 @@
-.collections {
+.qualities {
     text-align: center;
     width: 100%;
-    height: 520px;
-    padding-top: 50px;
+    height: 500px;
   }
   
-  .collections-logo{
-        height: 70px;
-        width: 350px;
-        box-shadow: 10px 10px 5px lightblue;
-    }
   
-    .collections-logo:hover{
-      width: 390px;
-      /* box-shadow: 10px 10px 5px lightblue inset; */
-  }
-  
-  .collections .title {
-    color: red;
-    font-size: 30px;
+  .qualities .title {
+    color: orange;
+    font-size: 40px;
     margin-top: 50px;
+    font-weight: bold;
   }
   
-  .collections-card {
+  .qualities-card {
     justify-content: center;
     margin-top: 50px;
     display: grid;
-    grid-template-columns: repeat(6, 200px);
+    grid-template-columns: repeat(3, 230px);
     grid-template-rows: 1fr 1fr;
-    column-gap: 25px;
+    column-gap: 50px;
     row-gap: 20px;
+    margin-left: -22px;
   }
   
-  .card {
-    height: 250px;
-    width: 200px;
+  .qualities-card .card {
+    height: 200px;
+    width: 230px;
     margin: 0 10px;
-    background-color: aqua;
+    /* background-color: orange; */
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
-    transition: transform .2s; /* Animation */
+    transition: transform 0.2s; /* Animation */
+    border-radius: 2px;
   }
   
-        .card:hover {
-          transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-        }
-  
-        .card img{
-          height: 250px;
-          width: 200px;
-        }
-  
-  @media (max-width: 1400px){
-  
-      .collections-card {
-          justify-content: center;
-          margin-top: 50px;
-          display: grid;
-          grid-template-columns: repeat(3, 200px);
-          grid-template-rows: 1fr 1fr;
-          column-gap: 20px;
-          row-gap: 20px;
-        }
-        
-        .card {
-          height: 250px;
-          width: 200px;
-          border: 1px solid black;
-          margin: 0 10px;
-          background-color: aqua;
-        }
+  .qualities-card .card:hover {
+    transform: scale(
+      1.3
+    );
   }
   
-  @media (max-width: 700px){
-  
-      .collections-card {
-          justify-content: center;
-          margin-top: 50px;
-          display: grid;
-          grid-template-columns: repeat(2, 200px);
-          grid-template-rows: 1fr 1fr;
-          column-gap: 20px;
-          row-gap: 20px;
-        }
-        
-        .card {
-          height: 250px;
-          width: 200px;
-          border: 1px solid black;
-          margin: 0 10px;
-          background-color: aqua;
-        }
+  .qualities-card .card img {
+    height: 200px;
+    width: 230px;
+  }
+
+  .qualities-card label{
+    color: rgb(83, 82, 80);
+    font-size: 20px;
+   
+    font-weight: bold;
   }
   
-  @media (max-width: 460px){
+  @media (max-width: 1400px) {
+    .qualities {
+      height: 780px;
+    }
   
-      .collections-logo{
-          height: 60px;
-          width: 280px;
-          box-shadow: 10px 10px 5px lightblue;
-      }
+    .qualities-card {
+      justify-content: center;
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: repeat(3, 200px);
+      grid-template-rows: 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 20px;
+    }
   
-      .collections-logo:hover{
-          width: 280px;
-          box-shadow: 10px 10px 5px lightblue inset;
-          
-      }
-  
-      .collections-card {
-          justify-content: center;
-          margin-top: 50px;
-          display: grid;
-          grid-template-columns: repeat(1, 200px);
-          grid-template-rows: 1fr 1fr;
-          column-gap: 20px;
-          row-gap: 20px;
-        }
-        
-        .card {
-          height: 250px;
-          width: 200px;
-          border: 1px solid black;
-          margin: 0 10px;
-          background-color: aqua;
-        }
+    .qualities-card .card {
+      height: 250px;
+      width: 200px;
+      border: 1px solid black;
+      margin: 0 10px;
+      /* background-color: orange; */
+    }
   }
+  
+  @media (max-width: 700px) {
+  
+    .qualities {
+      height: 980px;
+    }
+  
+    .qualities-card {
+      justify-content: center;
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: repeat(2, 200px);
+      grid-template-rows: 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 20px;
+    }
+  
+    .qualities-card .card {
+      height: 250px;
+      width: 200px;
+      border: 1px solid black;
+      margin: 0 10px;
+      /* background-color: orange; */
+    }
+  }
+  
+  @media (max-width: 460px) {
+  
+    .qualities {
+      height: 1000px;
+    }
+  
+    .qualities-logo {
+      height: 60px;
+      width: 280px;
+      box-shadow: 10px 10px 5px lightblue;
+    }
+  
+    .qualities-logo:hover {
+      width: 280px;
+      box-shadow: 10px 10px 5px lightblue inset;
+    }
+  
+    .qualities-card {
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: repeat(2, 180px);
+      grid-template-rows: 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 45px;
+    }
+  
+    .qualities-card .card {
+      height: 180px;
+      width: 180px;
+      border: 1px solid black;
+      /* margin: 0 10px; */
+      /* background-color: orange; */
+    }
+  
+    .qualities-card .card img {
+      height: 100px;
+      width: 175px;
+      
+    }
+    
+    .qualities-card .card:hover {
+      transform: scale(
+        1.2
+      );
+    }
+  }
+  
